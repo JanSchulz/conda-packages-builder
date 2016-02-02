@@ -31,6 +31,7 @@ Once the conda-forge channel has been enabled, packages can be installed with:
 
 ```
 conda install <package-name>
+```
 
 
 Terminology
