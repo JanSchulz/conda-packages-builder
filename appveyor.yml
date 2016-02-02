@@ -50,7 +50,8 @@ install:
     - cmd: conda install -n root --quiet --yes conda-build anaconda-client jinja2 setuptools
 
 
-    - cmd: conda install -n root --quiet -c conda-forge --yes conda-build-all
+    # TODO: remove version after conda-build-all has a new release
+    - cmd: conda install -n root --quiet -c conda-forge --yes conda-build-all conda-build=1.8.2
 
 
 # Skip .NET project specific build phase.
@@ -58,8 +59,8 @@ build: off
 
 
 test_script:
-    - conda buildall ./recipes --no-inspect-conda-bld-directory \
-       --upload-channels "janschulz/channel/main"\
+    - conda buildall ./recipes --no-inspect-conda-bld-directory
+       --upload-channels "janschulz/channel/main"
        --inspect-channels "janschulz/channel/main"
 
 
