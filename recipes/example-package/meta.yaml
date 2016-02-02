@@ -13,8 +13,6 @@ requirements:
     run:
         - python
 
-test:
-
 about:
   license: BSD-3
   home: http://example.com
