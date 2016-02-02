@@ -31,6 +31,7 @@ cat << EOF | docker run -i \
                         pelson/obvious-ci:latest_x64 \
                         bash || exit $?
 
+# The BINSTAR secure variable is set by 'conda smithy register-feedstock-ci' via a web request.
 export BINSTAR_TOKEN=${BINSTAR_TOKEN}
 export PYTHONUNBUFFERED=1
 

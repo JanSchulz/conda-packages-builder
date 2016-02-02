@@ -1,9 +1,9 @@
 appveyor:
-  secure: {BINSTAR_TOKEN: <will be updated by "conda-smithy register-feedstock-ci">}
+  secure: {BINSTAR_TOKEN: pQrnOvQFfuz1l38ZtSzpX9LHQU4y7cmbZo4kTgTnO3azxiq3lEyN+wJqB+GvDCUB}
 channels:
-  sources: ['janschulz']
+  sources: [janschulz]
   targets:
-  - ['janschulz', 'main']
+  - [janschulz, main]
 is_pile: true
 travis:
-  secure: {BINSTAR_TOKEN: <will be updated by "conda-smithy register-feedstock-ci">}
+  secure: {BINSTAR_TOKEN: d/Db9Fi2MSZuxZc/1bdGh+z1nNf836AJe/qyOhD3cRBEfMrTMWDA/k7wAm/8PBJROTOTSvkdciNV33X457GsroUS4vxpm8XqhU3WGsGbaCkHXUgBUozmVVE/H2EkUpUjMqFwurjPOW372qd/+9D9fPGh2INxEgGa9py3KnAicqHNnZc46A9aPU3pKfDfvx6rdTL122MjEqa+gZiI5B7n+l/yV9IKi6bzluFhcPZv8KMpO1K7GfVi7OkMdVBpQs2TSZfFU9FO1he4Fsag2CpvUI3uGztrIySu9Zs8AfVVJtX/GZFZS8iILYP4XkJbaWN1phjASBb2hAXM1c/yKiNVYHGAy0aHEqE5jD53giEuxfskmAEJZZZYBJYxAyO6RRh2FLe93mepPY1lc6rWKqqVD9jvup2jXBVlWNTv3KxaMWN/PICzShrD4CrRjhwstotMQkMQ4o2kofhD411P5tSY5+rkZAxS8N5essThjM5LuJYc8rFBGxUKhQXQm18UoVGQdwGQBYuQiKK1gCx0DWcc6WG32qIFw5ANaUDP5XT/dYs2RWQX9/k0FM/Qm9/465rYRvH6WWhqFVIyKwB7CQwwdpQoyu4SDICTGu+rzsHkPG3G2P7vZZd/wORSe7+yZgK8CbNOA56JALIPwhG3DxeI963kVgILcTWOzeE2hzc2mdY=}

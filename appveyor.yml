@@ -15,11 +15,9 @@ environment:
   # We set a default Python version for the miniconda that is to be installed. This can be
   # overridden in the matrix definition where appropriate.
   CONDA_PY: "27"
-  # BINSTAR_TOKEN generated with "binstar auth --create --name appveyor -o <anaconda-account>" and
-  # encrypted on ci.appveyor.com/tools/encrypt.
-  # The secure variable. These is defined canonically in conda-forge.yml.
+  # The secure variable. This is defined canonically in conda-forge.yml.
   BINSTAR_TOKEN:
-    secure: "<will be updated by "conda-smithy register-feedstock-ci">"
+    secure: "pQrnOvQFfuz1l38ZtSzpX9LHQU4y7cmbZo4kTgTnO3azxiq3lEyN+wJqB+GvDCUB"
 
   matrix:
     # conda buildall will automatically build for the right python/numpy version
