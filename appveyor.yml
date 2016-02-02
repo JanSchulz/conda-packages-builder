@@ -58,7 +58,7 @@ build: off
 
 
 test_script:
-    - conda build-all ./recipes --no-inspect-conda-bld-directory \
+    - conda buildall ./recipes --no-inspect-conda-bld-directory \
        --upload-channels "janschulz/channel/main"\
        --inspect-channels "janschulz/channel/main"
 

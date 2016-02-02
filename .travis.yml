@@ -29,4 +29,4 @@ install:
       conda config --add channels janschulz
       
 script:
-  - conda build-all ./recipes --no-inspect-conda-bld-directory   --upload-channels "janschulz/channel/main" --inspect-channels "janschulz/channel/main"
+  - conda buildall ./recipes --no-inspect-conda-bld-directory   --upload-channels "janschulz/channel/main" --inspect-channels "janschulz/channel/main"

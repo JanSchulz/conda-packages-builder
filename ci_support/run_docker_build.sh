@@ -46,7 +46,7 @@ conda info
 
 
 conda install --yes conda-build-all
-conda build-all /recipe_root --no-inspect-conda-bld-directory \
+conda buildall /recipe_root --no-inspect-conda-bld-directory \
    --upload-channels "janschulz/channel/main"\
    --inspect-channels "janschulz/channel/main"
 
