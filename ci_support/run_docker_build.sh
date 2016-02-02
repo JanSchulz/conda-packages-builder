@@ -46,7 +46,7 @@ conda info
 
 
 # TODO: remove version after conda-build-all has a new release
-conda install --yes conda-build-all conda-build=1.8.2
+conda install --yes conda-build-all conda-build=1.18.2
 conda buildall /recipe_root --no-inspect-conda-bld-directory \
    --upload-channels "janschulz/channel/main"\
    --inspect-channels "janschulz/channel/main"
