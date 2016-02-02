@@ -1,8 +1,9 @@
-About
-=====
+
+About this package builder repository
+=====================================
 
 This is a package builder repository, which builds several conda recipes and uploads them to a
-costume anaconda channel
+custom anaconda channel
 
 Working with this channel
 =========================
@@ -10,20 +11,20 @@ Working with this channel
 Listing all packages form the conda-forge channel can be achieved by
 
 ```
-conda search -c  --override-channels
+conda search -c janschulz --override-channels
 ```
 
 Installing a package can be done with:
 
 ```
-conda install -c  <package-name>
+conda install -c janschulz <package-name>
 ```
 
 
 You can permanently add the channel by using the following command:
 
 ```
-conda config --add channels 
+conda config --add channels janschulz
 ```
 
 Once the conda-forge channel has been enabled, packages can be installed with:
@@ -55,5 +56,5 @@ If you would like to improve the individual recipes, please take the normal
 route of forking this repository and submitting a PR. Upon submission, your changes will
 be run on the appropriate platforms to give the reviewer an opportunity to confirm that the
 changes result in a successful build. Once merged, the recipe will be re-built and built packages
-uploaded automatically to the  channel, whereupon they will be available for
+uploaded automatically to the janschulz channel, whereupon they will be available for
 everybody to install and use.
