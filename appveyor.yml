@@ -50,7 +50,7 @@ install:
     - cmd: conda install -n root --quiet --yes conda-build anaconda-client jinja2 setuptools
 
 
-    - cmd: conda install -n root --quiet -c conda-forge conda-build-all
+    - cmd: conda install -n root --quiet -c conda-forge --yes conda-build-all
 
 
 # Skip .NET project specific build phase.
