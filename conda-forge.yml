@@ -1,0 +1,9 @@
+appveyor:
+  secure: {BINSTAR_TOKEN: <will be updated by "conda-smithy register-feedstock-ci">}
+channels:
+  sources: ['janschulz']
+  targets:
+  - ['janschulz', 'main']
+is_pile: true
+travis:
+  secure: {BINSTAR_TOKEN: <will be updated by "conda-smithy register-feedstock-ci">}
